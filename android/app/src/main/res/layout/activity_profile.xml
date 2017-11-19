@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/login_form"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/my_profile_top_item" />
+
+        <include layout="@layout/fcm_token" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="4dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_name"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_id_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_id_number"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/prompt_contact"
+                        android:inputType="text"
+                        android:maxLines="1" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edt_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:hint="Address"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLines="5"
+                        android:minHeight="100dp"
+                        android:minLines="3" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <Button
+                    android:id="@+id/update_profile"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Update"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="4dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:imeActionId="@+id/login"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <tut.lbs.locationbasedsystem.views.FloatingLabel
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/pwd_confirmation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Confirm password"
+                        android:imeActionLabel="@string/action_sign_in_short"
+                        android:imeOptions="actionUnspecified"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:singleLine="true" />
+
+                </tut.lbs.locationbasedsystem.views.FloatingLabel>
+
+                <Button
+                    android:id="@+id/update_password"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Update Password"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "463648544491",
+    "firebase_url": "https://lbs-location-based-system.firebaseio.com",
+    "project_id": "lbs-location-based-system",
+    "storage_bucket": "lbs-location-based-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463648544491:android:739719eb2528d1bf",
+        "android_client_info": {
+          "package_name": "tut.lbs.locationbasedsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "463648544491-28jv6f59si5cd58rsgev5ldilbsuntks.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "463648544491-baut8o5h87nh9pf3gljgomc2ifbslhsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3ndYncwEIQ95uTy0pn9cQJzFdoS4Z4Rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

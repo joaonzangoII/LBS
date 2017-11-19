@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <tut.lbs.locationbasedsystem.views.FloatingLabel
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:floatLabelTextAppearance="@style/TextAppearance.FloatLabel">
+
+        <AutoCompleteTextView
+            android:id="@+id/reference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edt_border"
+            android:hint="@string/prompt_reference"
+            android:imeActionLabel="@string/prompt_reference"
+            android:imeOptions="actionUnspecified"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </tut.lbs.locationbasedsystem.views.FloatingLabel>
+</RelativeLayout>

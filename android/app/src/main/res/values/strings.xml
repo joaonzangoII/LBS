@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">LBS - Location Based System</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_refused">Permission was not granted</string>
+    <string name="permission_request_title">Special Permission Request</string>
+    <string name="app_permission_notice">
+        This permission request is very important to your app functionality.
+        If it is not granted your app might not work the way it is intended
+    </string>
+    <string name="failed_draw">Empty line path return</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+
+    <string name="text_track_trip">Track Trip</string>
+    <string name="text_trips">My Trips</string>
+    <string name="text_profile">Profile</string>
+    <string name="text_log_out">Sigh Out</string>
+    <string name="login">LOGIN!</string>
+
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Register</string>
+    <string name="action_register">Register</string>
+    <string name="action_msg_already_have_account">Already have an account? Sign In</string>
+
+    <string name="prompt_reference">Reference</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_contact">Contact</string>
+    <string name="prompt_id_number">ID Number</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="prompt_short_address">Address</string>
+    <string name="prompt_short_password">Password</string>
+    <string name="prompt_short_confirm_password">Confirm Password</string>
+    <string name="action_forgot_password">Forgot Password</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>L
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+</resources>

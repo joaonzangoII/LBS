@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7891) - http://www.bohemiancoding.com/sketch -->
+    <title>LBS</title>
+    <desc>Location Based System.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Dribbble" sketch:type="MSArtboardGroup">
+            <g id="Core-Location-Icon" sketch:type="MSLayerGroup" transform="translate(198.000000, 75.000000)">
+                <path d="M382.006148,335.487298 C412.373528,311.832042 412.369544,273.476189 382.006148,249.824037 L257.3751,152.740278 C227.00772,129.085022 177.768484,129.088126 147.405089,152.740278 L22.7740408,249.824037 C-7.59333928,273.479293 -7.58935454,311.835146 22.7740408,335.487298 L147.405089,432.571056 C177.772469,456.226313 227.011705,456.223209 257.3751,432.571056 L382.006148,335.487298 Z" id="Rectangle-3" stroke="#B43DCC" stroke-width="2.24820144" fill="#AA00CC" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+                <path d="M382.006148,267.987298 C412.373528,244.332042 412.369544,205.976189 382.006148,182.324037 L257.3751,85.2402783 C227.00772,61.5850219 177.768484,61.5881259 147.405089,85.2402783 L22.7740408,182.324037 C-7.59333928,205.979293 -7.58935454,244.335146 22.7740408,267.987298 L147.405089,365.071056 C177.772469,388.726313 227.011705,388.723209 257.3751,365.071056 L382.006148,267.987298 Z" id="Rectangle-2" stroke="#CB45E6" stroke-width="2.24820144" fill="#BF00E6" filter="url(#filter-2)" sketch:type="MSShapeGroup"></path>
+                <path d="M382.006148,200.487298 C412.373528,176.832042 412.369544,138.476189 382.006148,114.824037 L257.3751,17.7402783 C227.00772,-5.91497807 177.768484,-5.91187408 147.405089,17.7402783 L22.7740408,114.824037 C-7.59333928,138.479293 -7.58935454,176.835146 22.7740408,200.487298 L147.405089,297.571056 C177.772469,321.226313 227.011705,321.223209 257.3751,297.571056 L382.006148,200.487298 Z" id="Rectangle-1" stroke="#E24CFF" stroke-width="2.24820144" fill="#D400FF" filter="url(#filter-3)" sketch:type="MSShapeGroup"></path>
+                <path d="M267.638304,205.229621 L201.231755,157.904051 L132.75,206.708545 L201.231755,81 L267.638304,205.229621 Z" id="location-2" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
